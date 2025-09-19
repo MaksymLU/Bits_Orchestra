@@ -5,7 +5,7 @@ namespace Contact_Manager_Application.Interfaces
 {
     public interface IFileProcessingService
     {
-        Task ProcessFileAsync(IFormFile file);
+        Task<(bool Success, string? ErrorMessage)> ProcessFileAsync(IFormFile file);
         Task MergeTempApplicationsAsync();
     }
 }

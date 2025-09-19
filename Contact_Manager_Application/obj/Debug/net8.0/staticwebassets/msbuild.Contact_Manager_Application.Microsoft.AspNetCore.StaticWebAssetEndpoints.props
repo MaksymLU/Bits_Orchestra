@@ -36,17 +36,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 18 Sep 2025 09:47:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Contact_Manager_Application/js/contacts.79nb6c953l.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\contacts.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"79nb6c953l"},{"Name":"integrity","Value":"sha256-hW\u002BYeIaanL389Skv9b7FZ0esr/4A\u002BcExQJnxGqlTlZ8="},{"Name":"label","Value":"_content/Contact_Manager_Application/js/contacts.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5527"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hW\u002BYeIaanL389Skv9b7FZ0esr/4A\u002BcExQJnxGqlTlZ8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 19 Sep 2025 11:20:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Contact_Manager_Application/js/contacts.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\contacts.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4469"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 19 Sep 2025 09:58:13 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Contact_Manager_Application/js/contacts.oy7tm6q8r1.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\contacts.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oy7tm6q8r1"},{"Name":"integrity","Value":"sha256-cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4="},{"Name":"label","Value":"_content/Contact_Manager_Application/js/contacts.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4469"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 19 Sep 2025 09:58:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hW\u002BYeIaanL389Skv9b7FZ0esr/4A\u002BcExQJnxGqlTlZ8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5527"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hW\u002BYeIaanL389Skv9b7FZ0esr/4A\u002BcExQJnxGqlTlZ8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 19 Sep 2025 11:20:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Contact_Manager_Application/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

@@ -54,17 +54,42 @@
             let field = $(this).data("field");
             let value = $(this).text().trim();
 
-            if (field === "Married") {
-                value = value.toLowerCase() === "true"; 
-            } else if (field === "Salary") {
+            // Локальна валідація
+            if ((field === "Name" || field === "Phone") && !value) {
+                alert(field + " cannot be empty.");
+                throw "Validation failed"; // зупиняємо обробку
+            }
+
+            if (field === "Salary") {
+                if (!/^\d+(\.\d+)?$/.test(value)) { // перевірка, що це число
+                    alert("Salary must be a valid number.");
+                    throw "Validation failed";
+                }
                 value = parseFloat(value);
-            } else if (field === "DateOfBirth") {
-                value = new Date(value).toISOString();
+            }
+
+            if (field === "DateOfBirth") {
+                let date = new Date(value);
+                if (isNaN(date.getTime())) {
+                    alert("DateOfBirth is not valid.");
+                    throw "Validation failed";
+                }
+                value = date.toISOString();
+            }
+
+            if (field === "Married") {
+                let lower = value.toLowerCase();
+                if (lower !== "true" && lower !== "false") {
+                    alert("Married must be true or false.");
+                    throw "Validation failed";
+                }
+                value = lower === "true";
             }
 
             updatedUser[field] = value;
         });
 
+        // Відправка запиту тільки якщо всі перевірки пройшли
         $.ajax({
             url: "/Users/Update/" + userId,
             type: "PUT",
@@ -80,6 +105,7 @@
             }
         });
     });
+
 
 
     $(document).on("click", ".deleteBtn", function () {

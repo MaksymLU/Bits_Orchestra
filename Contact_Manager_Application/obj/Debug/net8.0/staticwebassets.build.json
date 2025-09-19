@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8ONZy9X2RtW9JQSFWuVn/NJVj5R/sFByvpnKRUu75kE=",
+  "Hash": "X/+zgnmC0bkTU8YPbS58JTYfFmq+GDRMfcbbX+Qio8A=",
   "Source": "Contact_Manager_Application",
   "BasePath": "_content/Contact_Manager_Application",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oy7tm6q8r1",
-      "Integrity": "cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4=",
+      "Fingerprint": "79nb6c953l",
+      "Integrity": "hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\contacts.js"
@@ -1670,6 +1670,51 @@
       ]
     },
     {
+      "Route": "js/contacts.79nb6c953l.js",
+      "AssetFile": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\wwwroot\\js\\contacts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Sep 2025 11:20:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "79nb6c953l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/contacts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8="
+        }
+      ]
+    },
+    {
       "Route": "js/contacts.js",
       "AssetFile": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\wwwroot\\js\\contacts.js",
       "Selectors": [],
@@ -1680,7 +1725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4469"
+          "Value": "5527"
         },
         {
           "Name": "Content-Type",
@@ -1688,11 +1733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4=\""
+          "Value": "\"hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 09:58:13 GMT"
+          "Value": "Fri, 19 Sep 2025 11:20:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1702,52 +1747,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4="
-        }
-      ]
-    },
-    {
-      "Route": "js/contacts.oy7tm6q8r1.js",
-      "AssetFile": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\wwwroot\\js\\contacts.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4469"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 09:58:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "oy7tm6q8r1"
-        },
-        {
-          "Name": "label",
-          "Value": "js/contacts.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4="
+          "Value": "sha256-hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8="
         }
       ]
     },

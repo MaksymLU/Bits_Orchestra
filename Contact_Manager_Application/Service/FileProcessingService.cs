@@ -19,14 +19,20 @@ namespace Contact_Manager_Application.Services
             _context = context;
         }
 
-        public async Task ProcessFileAsync(IFormFile file)
+        public async Task<(bool Success, string? ErrorMessage)> ProcessFileAsync(IFormFile file)
         {
+            bool success = true;
+            string? errorMessage = null;
+
             using var stream = file.OpenReadStream();
             using var reader = new StreamReader(stream);
 
             bool isFirstRow = true;
+            int rowNumber = 0;
+
             while (!reader.EndOfStream)
             {
+                rowNumber++;
                 var line = await reader.ReadLineAsync();
                 if (string.IsNullOrWhiteSpace(line))
                     continue;
@@ -39,21 +45,59 @@ namespace Contact_Manager_Application.Services
 
                 var parts = line.Split(',');
                 if (parts.Length < 5)
-                    continue;
+                {
+                    success = false;
+                    errorMessage = $"Row {rowNumber}: Not enough columns.";
+                    break;
+                }
+
+                string name = parts[0].Trim();
+                string dobString = parts[1].Trim();
+                string marriedString = parts[2].Trim();
+                string phone = parts[3].Trim();
+                string salaryString = parts[4].Trim();
+
+                if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(dobString) ||
+                    string.IsNullOrEmpty(marriedString) || string.IsNullOrEmpty(phone) ||
+                    string.IsNullOrEmpty(salaryString))
+                {
+                    success = false;
+                    errorMessage = $"Row {rowNumber}: One or more fields are empty.";
+                    break;
+                }
+
+                if (!DateTime.TryParse(dobString, out var dob))
+                {
+                    success = false;
+                    errorMessage = $"Row {rowNumber}: Invalid DateOfBirth.";
+                    break;
+                }
+
+                if (!bool.TryParse(marriedString, out var married))
+                {
+                    success = false;
+                    errorMessage = $"Row {rowNumber}: Invalid Married value.";
+                    break;
+                }
+
+                if (!decimal.TryParse(salaryString.Replace(".",","), out var salary))
+                {
+                    success = false;
+                    errorMessage = $"Row {rowNumber}: Invalid Salary value.";
+                    break;
+                }
 
                 var user = new User
                 {
-                    Name = parts[0],
-                    DateOfBirth = TryParseDate(parts[1]),
-                    Married = TryParseBool(parts[2]),
-                    Phone = parts[3],
-                    Salary = TryParseDecimal(parts[4])
+                    Name = name,
+                    DateOfBirth = dob,
+                    Married = married,
+                    Phone = phone,
+                    Salary = salary
                 };
 
-                // Перевірка на дублікати по Name + DateOfBirth
                 bool exists = await _context.Users.AnyAsync(u =>
-                    u.Name == user.Name &&
-                    u.DateOfBirth == user.DateOfBirth
+                    u.Name == user.Name && u.DateOfBirth == user.DateOfBirth
                 );
 
                 if (!exists)
@@ -62,8 +106,23 @@ namespace Contact_Manager_Application.Services
                 }
             }
 
-            await _context.SaveChangesAsync();
+            if (success)
+            {
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    success = false;
+                    errorMessage = "Database error: " + ex.Message;
+                }
+            }
+
+            return (success, errorMessage);
         }
+
+
 
 
         public Task MergeTempApplicationsAsync()

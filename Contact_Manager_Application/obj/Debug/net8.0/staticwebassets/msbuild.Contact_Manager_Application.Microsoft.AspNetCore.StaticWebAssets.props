@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oy7tm6q8r1</Fingerprint>
-      <Integrity>cOQu4lR/2f24NjmEAzSSRQjSYaNzalN2qxOho/UfQw4=</Integrity>
+      <Fingerprint>79nb6c953l</Fingerprint>
+      <Integrity>hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\contacts.js'))</OriginalItemSpec>
