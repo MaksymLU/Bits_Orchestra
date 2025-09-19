@@ -28,11 +28,31 @@
         <table class="table table-bordered table-hover" id="contactsTable">
             <thead>
                 <tr>
-                    <th data-column="Name">Name</th>
-                    <th data-column="DateOfBirth">Date of Birth</th>
-                    <th data-column="Married">Married</th>
-                    <th data-column="Phone">Phone</th>
-                    <th data-column="Salary">Salary</th>
+                    <th>
+                        <button class="btn btn-sm btn-outline-primary sort-btn w-100 text-start fw-bold" data-column="Name">
+                            Name <span class="sort-indicator"></span>
+                        </button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-outline-primary sort-btn w-100 text-start fw-bold" data-column="DateOfBirth">
+                            Date of Birth <span class="sort-indicator"></span>
+                        </button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-outline-primary sort-btn w-100 text-start fw-bold" data-column="Married">
+                            Married <span class="sort-indicator"></span>
+                        </button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-outline-primary sort-btn w-100 text-start fw-bold" data-column="Phone">
+                            Phone <span class="sort-indicator"></span>
+                        </button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-outline-primary sort-btn w-100 text-start fw-bold" data-column="Salary">
+                            Salary <span class="sort-indicator"></span>
+                        </button>
+                    </th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -42,6 +62,32 @@
         </table>
     </div>
 </div>
+
+<style>
+    .sort-btn.active {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    .sort-indicator {
+        float: right;
+        font-size: 0.8em;
+    }
+</style>
+<style>
+    .btn-save {
+        background-color: #4da6ff; 
+        border-color: #3399ff;
+        color: white;
+        font-weight: 500;
+    }
+
+    .btn-save:hover {
+            background-color: #3399ff;
+            border-color: #2673cc;
+    }
+
+</style>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="~/js/contacts.js"></script>

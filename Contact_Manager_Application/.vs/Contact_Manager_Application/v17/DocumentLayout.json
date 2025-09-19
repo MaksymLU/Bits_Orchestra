@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|d:\\code\\c#\\bits_orchestra\\bits_orchestra\\contact_manager_application\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|d:\\code\\c#\\bits_orchestra\\bits_orchestra\\contact_manager_application\\service\\fileprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|solutionrelative:service\\fileprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|d:\\code\\c#\\bits_orchestra\\bits_orchestra\\contact_manager_application\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|d:\\code\\c#\\bits_orchestra\\bits_orchestra\\contact_manager_application\\wwwroot\\js\\contacts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|solutionrelative:wwwroot\\js\\contacts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|d:\\code\\c#\\bits_orchestra\\bits_orchestra\\contact_manager_application\\interfaces\\ifileprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|solutionrelative:interfaces\\ifileprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC165E83-71B7-43FC-A42F-BD1A991A0C43}|Contact_Manager_Application.csproj|d:\\code\\c#\\bits_orchestra\\bits_orchestra\\contact_manager_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,41 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IFileProcessingService.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Interfaces\\IFileProcessingService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IFileProcessingService.cs",
-              "ToolTip": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Interfaces\\IFileProcessingService.cs",
-              "RelativeToolTip": "Interfaces\\IFileProcessingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:55:42.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FileProcessingService.cs",
               "DocumentMoniker": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Service\\FileProcessingService.cs",
               "RelativeDocumentMoniker": "Service\\FileProcessingService.cs",
               "ToolTip": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Service\\FileProcessingService.cs",
               "RelativeToolTip": "Service\\FileProcessingService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAnwEQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:40:58.831Z",
+              "WhenOpened": "2025-09-19T12:57:56.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileUploadController.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Controllers\\FileUploadController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
-              "ToolTip": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Controllers\\FileUploadController.cs",
-              "RelativeToolTip": "Controllers\\FileUploadController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:40:27.546Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAFUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T12:43:14.85Z",
               "EditorCaption": ""
             },
             {
@@ -87,20 +70,20 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\contacts.js",
               "ToolTip": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\wwwroot\\js\\contacts.js",
               "RelativeToolTip": "wwwroot\\js\\contacts.js",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-19T10:39:49.881Z",
+              "WhenOpened": "2025-09-19T12:36:21.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\Code\\C#\\Bits_Orchestra\\Bits_Orchestra\\Contact_Manager_Application\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-19T09:59:51.512Z",
               "EditorCaption": ""

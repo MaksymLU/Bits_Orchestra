@@ -249,51 +249,6 @@
       ]
     },
     {
-      "Route": "js/contacts.79nb6c953l.js",
-      "AssetFile": "js/contacts.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5527"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 11:20:54 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "79nb6c953l"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8="
-        },
-        {
-          "Name": "label",
-          "Value": "js/contacts.js"
-        }
-      ]
-    },
-    {
       "Route": "js/contacts.js",
       "AssetFile": "js/contacts.js",
       "Selectors": [],
@@ -308,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5527"
+          "Value": "7913"
         },
         {
           "Name": "Content-Type",
@@ -316,17 +271,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8=\""
+          "Value": "\"Erdp0m1gZr3EyczZAOxnONpF0nlIGLTNfJ0jk3uSnL8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 11:20:54 GMT"
+          "Value": "Fri, 19 Sep 2025 12:55:19 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hW+YeIaanL389Skv9b7FZ0esr/4A+cExQJnxGqlTlZ8="
+          "Value": "sha256-Erdp0m1gZr3EyczZAOxnONpF0nlIGLTNfJ0jk3uSnL8="
+        }
+      ]
+    },
+    {
+      "Route": "js/contacts.q1rkv1i9zk.js",
+      "AssetFile": "js/contacts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Erdp0m1gZr3EyczZAOxnONpF0nlIGLTNfJ0jk3uSnL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Sep 2025 12:55:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1rkv1i9zk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Erdp0m1gZr3EyczZAOxnONpF0nlIGLTNfJ0jk3uSnL8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/contacts.js"
         }
       ]
     },

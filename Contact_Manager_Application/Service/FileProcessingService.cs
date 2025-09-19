@@ -130,32 +130,5 @@ namespace Contact_Manager_Application.Services
             return Task.CompletedTask;
         }
 
-        private DateTime TryParseDate(string? value)
-        {
-            if (DateTime.TryParse(value, CultureInfo.InvariantCulture, DateTimeStyles.None, out var date))
-                return date;
-            return DateTime.MinValue;
-        }
-
-        private bool TryParseBool(string? value)
-        {
-            if (string.IsNullOrEmpty(value)) return false;
-
-            return value.Trim().ToLower() switch
-            {
-                "true" => true,
-                "1" => true,
-                "yes" => true,
-                "так" => true,
-                _ => false
-            };
-        }
-
-        private decimal TryParseDecimal(string? value)
-        {
-            if (decimal.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out var result))
-                return result;
-            return 0m;
-        }
     }
 }
